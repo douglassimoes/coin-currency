@@ -14,5 +14,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/onkkos/coin-currency/issues"
+  },
+  "devDependencies": {
+    "react-dom": "~15.2.1",
+    "react": "~15.2.1"
   }
 }
