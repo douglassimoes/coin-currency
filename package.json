@@ -8,20 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onkkos/coin-currency.git"
+    "url": "https://github.com/douglassimoes/coin-currency.git"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/onkkos/coin-currency/issues"
+    "url": "https://github.com/douglassimoes/coin-currency/issues"
   },
   "devDependencies": {
     "react-dom": "~15.2.1",
     "react": "~15.2.1",
     "webpack": "~1.13.1",
     "babel-loader": "~6.2.0",
-    "babel-preset-es2016": "~6.11.3",
+    "babel-preset-es2015": "~6.3.13",
     "babel-core": "~6.3.13",
     "babel-preset-react": "~6.3.13"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "~6.9.0",
+    "babel-preset-react": "~6.11.1"
   }
 }
