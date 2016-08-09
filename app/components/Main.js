@@ -1,5 +1,6 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
+
+console.log("Chegou no Main");
 
 var Main = React.createClass({
     render: function() {
@@ -10,4 +11,4 @@ var Main = React.createClass({
 });
 
 
-ReactDOM.render(<Main />, document.getElementById('app'));
+module.exports = Main;
